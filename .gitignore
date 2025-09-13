@@ -1,0 +1,59 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Lightning logs and results
+.lightning_studio/
+.triton/
+wandb/
+results/
+evaluation_results/
+
+# Ignore large or generated files
+*.log
+*.csv
+*.tsv
+*.jsonl
+*.pth
+*.ckpt
+*.pt
+*.h5
+*.onnx
+*.mlmodel
+*.joblib
+*.npy
+*.npz
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment files
+.env
+.venv/
+env/
+venv/
+
+# Ignore NLP/ML-specific cached data
+nltk_data/
+__MACOSX/
+
+# Ignore experiment directories
+mistral-7b-beekeeping-lora/
+KG/
+
+# If using datasets that may be updated/generated
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# Ignore notebook outputs
+*.ipynb
