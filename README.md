@@ -615,27 +615,29 @@ async def ask_question(question: str):
 - **Feedback Collection**: Gather user ratings and corrections
 - **Continuous Learning**: Periodic retraining with new data
 
-## 📄 Citation & Acknowledgments
+## 📄 License & Intellectual Property
 
-### Research Foundation
-This project builds upon several key technologies:
-- **Mistral AI**: Mistral-7B-Instruct foundation model
-- **Hugging Face**: Transformers and PEFT libraries
-- **Microsoft**: LoRA parameter-efficient fine-tuning method
-- **Lightning AI**: High-performance training infrastructure
-- **Weights & Biases**: Experiment tracking and visualization
+### Prototype Disclaimer
+This repository contains a **research prototype** demonstrating fine-tuning methodologies for domain specialization. The implementation is provided for:
+- **Academic Research**: Educational study of LLM fine-tuning techniques
+- **Technical Demonstration**: Proof-of-concept for QLoRA implementation
+- **Learning Purposes**: Understanding of modern NLP training pipelines
 
-### Dataset Sources
-- Beekeeping literature and technical manuals
-- Apiary management guides and best practices
-- Honey production and quality assessment protocols
-- Bee health and disease management resources
+### Proprietary Rights Reserved
+- **Model Weights**: All fine-tuned model weights and LoRA adapters are proprietary
+- **Training Data**: Generated datasets and knowledge sources remain reserved property
+- **Project Architecture**: Overall system design and implementation structure is proprietary
+- **Commercial Usage**: No license granted for commercial deployment or monetization
+- **Data Distribution**: Training datasets and model outputs not licensed for redistribution
 
-### Contributing
-- **Bug Reports**: Submit issues through GitHub
-- **Feature Requests**: Propose enhancements and new capabilities
-- **Dataset Contributions**: Share additional beekeeping knowledge sources
-- **Performance Improvements**: Optimize training and inference efficiency
+### Research Use Guidelines
+- **Citation Required**: Academic use must properly cite this work
+- **No Derivatives**: Creating derivative works requires explicit permission
+- **Research Only**: Limited to non-commercial research and educational purposes
+- **Attribution**: Maintain all copyright notices and disclaimers in any derived work
+
+### Contact & Permissions
+For inquiries regarding commercial licensing, data access, or extended permissions beyond research use, please contact the project maintainer.
 
 ---
 
