@@ -1,4 +1,4 @@
-# Mistral-7B Beekeeping Fine-Tuning System
+# Mistral-7B Fine-Tuning Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Lightning AI](https://img.shields.io/badge/Lightning%20AI-A100%20GPU-purple.svg)](https://lightning.ai)
